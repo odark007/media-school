@@ -1,0 +1,345 @@
+/* For both PC and Mobile */ 
+body{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/pexels-susana-angel-román-1272887.jpg"); */
+    background-color: var(--page-bgcolor-v1);
+}
+
+.pagination{
+    width: 100%;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination > span{
+    border: none !important;
+}
+
+.pagination span{
+    border: 1px solid #444;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.2rem;
+}
+
+.pagination span:hover{
+    background-color: #444;
+    cursor: pointer;
+}
+
+main .page-section{
+    position: relative;
+    padding: 1rem;
+}
+
+main .page-section .container-heading{
+    position: relative;
+    padding: 0;
+    color: var(--bright-text-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 1.8rem;
+    text-align: left;
+}
+
+main .page-section .search-bar-wrap{
+    width: 30%;
+    border: 1px solid #444;
+    color: white;
+}
+
+main .page-section .search-bar-wrap *{
+    padding: 1rem;
+    border: none;
+    transition: background-color 0.2s linear;
+}
+
+main .page-section .search-bar-wrap input{
+    background-color: transparent;
+    border: none;
+    width: calc(100% - 3rem);
+    padding: 1rem;
+    outline: none;
+    color: white;
+}
+
+main .page-section .search-bar-wrap input:focus + button{
+    background-color: var(--secondary-color-code);
+    color: var(--dark-text-color);
+}
+
+main .page-section .container-element{
+    padding: 2rem 3rem;
+    width: 100%;
+}
+
+main .page-section .container-element > *:first-child{
+    align-items: center;
+    padding: 0.6rem 0;
+}
+
+main .page-section .container-button{
+    background-color: var(--main-color-code);
+    color: var(--bright-text-color);
+    padding: 1.3rem 1rem;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 0;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content{
+    font-size: 1.20rem;
+    font-size: calc(1rem + 0.18vw);
+    line-height: 1.5 !important;
+    color: #bbb;
+}
+
+main .page-section .container-element *.section-head{
+    background-color: rgba(109, 65, 0, 0.8);
+    color: white;
+    padding-left: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+main .page-section .bio-container{
+    flex-wrap: wrap;
+    /* border: 1px solid #333; */
+    width: 100%;
+    margin-top: 1.5rem;
+    /* padding: 0.5rem; */
+    transition: all 0.3s ease;
+}
+
+main .page-section .bio-container .bio-wrapper{
+    justify-content: center;
+    margin: 0.6rem;
+    width: calc(50% - 1.2rem);
+    min-width: 15rem;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 2rem 2.5rem;
+    transition: all 0.3s linear;
+    border-radius: 4px;
+}
+
+main .page-section .bio-container .cta-wrapper{
+    flex-wrap: wrap;
+}
+
+main .page-section .bio-container .bio-wrapper .cta{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(51, 51, 51);
+    color: var(--bright-text-color);
+    border-radius: 5px;
+    margin-right: 1.6rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 9rem;
+    transition: background-color 0.3s linear;
+}
+
+main .page-section .bio-container .bio-wrapper:hover .cta{
+    background-color: var(--main-color-code);
+    color: var(--bright-text-color);
+}
+
+main .page-section .bio-container .bio-wrapper .cta[data-disabled="true"]{
+    cursor: not-allowed;
+    background-color: #b3b3b3 !important;
+    color: #444;
+    opacity: 0.7;
+}
+
+main .page-section .bio-container .bio-wrapper > *:first-child{
+    align-items: center;
+    width: auto;
+    min-width: 150px;
+    justify-content: flex-start;
+    padding-top: 2rem;
+}
+
+main .page-section .bio-container .bio-wrapper > *:nth-child(2){
+    padding: 1.5rem 0.5rem 1.5rem 2.2rem;
+    justify-content: center;
+    min-width: 150px;
+}
+
+main .page-section .bio-container img.bio-img{
+    object-fit: cover;
+    width: 11vw;
+    height: 11vw;
+    min-height: 12rem;
+    min-width: 12rem;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    margin-bottom: 1rem;
+}
+
+main .page-section .bio-container .bio-name{
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0.4rem;
+}
+
+main .page-section .bio-container .bio-title{
+    color: #ddd;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1px;
+}
+
+main .page-section .bio-container .bio{
+    height: auto;
+    max-height: 250px;
+    overflow-y: auto;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    font-size: calc(1.2rem + 0.18vw) !important;
+    line-height: 1.5 !important;
+}
+
+main .page-section .bio-container .dummy.prod-wrapper:hover{
+    background-color: transparent;
+}
+
+main .page-section .bio-container .dummy .lazy-loading{
+    opacity: 0.7;
+    border-radius: 3px;
+}
+
+main .page-section .bio-container .dummy .prod-img{
+    width: 100%;
+    height: 13vw;
+    min-height: 13rem;
+}
+
+main .page-section .bio-container figcaption{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    /* color: var(--secondary-color-code); */
+}
+
+main .page-section .bio-container .dummy .caption{
+    padding: 0.55rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+
+footer{
+    margin: 0;
+    background-color: var(--page-bgcolor-v0);
+}
+
+/* For Mobile Users Only */
+@media only screen and (max-width:800px){
+    main .page-section .container-element{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    main .page-section .container-element > *:first-child{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    main .page-section .container-heading::after{
+        width: 2.5rem;
+    }
+
+    main .page-section .container-button{
+        background-color: var(--highlight-color-code);
+        color: var(--dark-text-color);
+        margin-right: 0;
+    }
+
+    main .page-section .bio-container .bio-wrapper .bio{
+        margin-bottom: 2rem;
+        max-height: unset;
+        overflow-y: unset;
+        font-size: 1.5rem !important;
+    }
+
+    main .page-section .bio-container .bio-wrapper{
+        margin: 1rem 0;
+        width: 100%;
+        min-width: 15rem;
+        /* transition: all 0.3s linear; */
+    }
+
+    main .page-section .bio-container img.bio-img{
+        width: 27vw;
+        height: 27vw;
+        max-width: 140px;
+        max-height: 140px;
+        min-height: 12rem;
+        min-width: 12rem;
+    }
+
+    main .page-section .bio-container .bio-title{
+        font-size: 1.2rem;
+    }
+
+    main .page-section .bio-container .bio-wrapper .cta{
+        margin-top: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:500px){
+    main .page-section .bio-container .bio-wrapper{
+        flex-wrap: wrap;
+    }
+
+    main .page-section .bio-container .bio-wrapper > *:first-child{
+        margin: auto;
+    }
+
+    main .page-section .bio-container img.bio-img{
+        width: 16rem;
+        height: 16rem;
+        width: 46vw;
+        height: 46vw;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    main .page-section .bio-container .cta-wrapper{
+        width: 80%;
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    main .page-section .bio-container .bio-wrapper .cta{
+        margin: 0;
+        width: 100%;
+        max-width: 200px;
+    }
+}

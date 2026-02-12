@@ -1,0 +1,92 @@
+main .page-section .container-content h3{
+    margin-bottom: 0;
+}
+
+main .page-section .container-content p{
+    font-size: 1.50rem;
+    font-size: calc(1.4rem + 0.18vw);
+    line-height: 1.5 !important;
+    color: #bbb;
+}
+
+.page-section .fees-pane-wrapper{
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+}
+
+.page-section .fees-pane-wrapper .fees-pane{
+    width: 80%;
+    padding: 0;
+    background-color: transparent;
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.fees-pane-wrapper .fees-pane .content{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.fees-pane-wrapper .fees-pane b{
+    text-align: left;
+    font-size: 1.65rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+.fees-pane table{
+    font-size: calc(1.4rem + 0.16vw);
+}
+
+.fees-pane table tr{
+    text-align: left;
+    padding: 1rem 0.5rem;
+    transition: all 0.1s ease;
+}
+
+.fees-pane table td:first-child, .fees-pane table th:first-child{
+    text-align: center;
+}
+
+.fees-pane table tr:hover{
+    color: white;
+}
+
+#media .fees-pane table tr:hover{
+    background-color: rgb(0, 151, 113);
+}
+
+.fees-pane table th, .fees-pane table td:nth-child(2){
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:800px){
+
+    .fees-pane-wrapper .fees-pane b{
+        text-align: left;
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        text-transform: uppercase;
+        /* text-decoration: underline; */
+    }
+
+    .page-section .fees-pane-wrapper .fees-pane{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fees-pane table{
+        font-size: 1.15rem;
+    }
+    
+    .fees-pane table tr{
+        text-align: left;
+    }
+}

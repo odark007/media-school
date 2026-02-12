@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR DEPARTMENTS</title>
+    <!-- Load all fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,200;1,400&display=swap" rel="stylesheet">
+    <!-- Load all CSS stylesheets -->
+    <link rel="stylesheet" href="../icofont.min.css">
+    <link rel="stylesheet" href="../clamp.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- Load all javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="../assets/lib/scrollreveal.min.js"></script>
+    <script src="../assets/lib/appear.min.js"></script>
+    <script src="../global.js"></script>
+    <script src="index.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZTBV2YJBX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZTBV2YJBX');
+</script>
+</head>
+<body>
+    <header>
+        <div class="rows top-wrapper">
+            <div class="rows header-label">
+                <a href="/" class="logo-wrapper"><img src="../Gh Media School.png" alt="" class="logo"></a>
+                <a href="/" class="logo-text">GH MEDIA SCHOOL</a>
+            </div>
+
+            <nav class="rows">
+                              <div class="cols center hide-on-mobile">
+                    <a href="/" class="rows center hide-on-mobile">HOME</a>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="/departments" class="rows center hide-on-mobile trigger">DEPARTMENT</a>
+                    <div class="trigger-content">
+                        <a href="/about" class="rows">About GH Media School</a>
+                        <a href="/departments#jms" class="rows">Journalism And Media Studies</a>
+                        <a href="/departments#jma" class="rows">Journalism And Media Art</a>
+                        <a href="/departments#tfp" class="rows">TV And Film Production</a>
+                        <a href="/departments#mmp" class="rows">Multimedia Production</a>
+                        <a href="/accreditation" class="rows">Accreditation & Awards</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">STAFF</a>
+                    <div class="trigger-content">
+                        <a href="/faculty-members" class="rows">Faculty Members</a>
+                        <a href="/facilities" class="rows">Our Facilities</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">MEDIA</a>
+                    <div class="trigger-content">
+                        <a href="https://weblog.ghschools.online/category/latest-news/" target="blank" class="rows">Latest News</a>
+                        <a href="https://weblog.ghschools.online/category/upcoming-events/" target="blank" class="rows">Upcoming Events</a>
+                        <a href="https://weblog.ghschools.online/" target="blank" class="rows">Online Weblog</a>
+                        <a href="https://zeno.fm/gh-radio-online" target="blank" class="rows">Online Radio</a>
+                        <a href="/productions" class="rows">Productions</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">STUDENTS</a>
+                    <div class="trigger-content">
+                        <a href="#" class="rows">Campus Life</a>
+                        <a href="/international-students" class="rows">International Student</a>
+                        <a href="#" class="rows">Hostel</a>
+                        <a href="https://192.168.100.200/studentportal" class="rows" target="blank">Student Portal</a>
+                        <a href="https://elearning.ghschools.online/moodle" class="rows" target="blank">E-learning</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">ADMISSIONS</a>
+                    <div class="trigger-content">
+                        <a href="/admission-criteria" class="rows">Admission Criteria</a>
+                        <a href="/prospective-students" class="rows">Prospective Students</a>
+                        <a href="/fee-structure" class="rows">Fee Structure</a>
+                        <a href="https://admissions.ghschools.online" class="rows">Apply Online</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="/contact" class="rows center hide-on-mobile">CONTACTS</a>
+                </div>
+                
+                <button id="open-mobile-menu" class="rows center hide-on-pc"><i class="icofont-navigation-menu"></i></button>
+            </nav>
+        </div>
+
+        <nav class="cols mobile-menu hide-on-pc">
+            <button id="close-mobile-menu" class="strip-btn rows icofont-close"></button>
+            <div class="cols">
+                <a href="/" class="rows">
+                    <span>HOME</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+            </div>
+            <div class="cols">
+                <a href="/departments" class="rows m-trigger"  style="align-items: center; justify-content: space-between;">
+                    <span>DEPARTMENT</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="/about" class="rows">About GH Schools</a>
+                    <a href="/departments#jms" class="rows">Journalism And Media Studies</a>
+                    <a href="/departments#jma" class="rows">Journalism And Media Art</a>
+                    <a href="/departments#tfp" class="rows">TV And Film Production</a>
+                    <a href="/accreditation" class="rows">Accreditation & Awards</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger" style="align-items: center; justify-content: space-between;">
+                    <span>FACULTY</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="/faculty-members" class="rows">Faculty Members</a>
+                    <a href="/facilities" class="rows">Our Facilities</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger">
+                    <span>MEDIA</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="#latest-news" class="rows">Latest News</a>
+                    <a href="#upcoming-events" class="rows">Upcoming Events</a>
+                    <a href="http://www.myghonline.com" target="blank" class="rows">Online Weblog</a>
+                    <a href="https://zeno.fm/gh-radio-online" target="blank" class="rows">Online Radio</a>
+                    <a href="/productions" class="rows">Productions</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger">
+                    <span>STUDENTS</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="#" class="rows">Campus Life</a>
+                    <a href="/international-students" class="rows">International Student</a>
+                    <a href="#" class="rows">Hostel</a>
+                    <a href="https://192.168.100.200/studentportal" class="rows" target="blank">Student Portal</a>
+                    <a href="https://elearning.ghschools.online/moodle" class="rows" target="blank">E-learning</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger">
+                    <span>ADMISSIONS</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="/admission-criteria" class="rows">Admission Criteria</a>
+                    <a href="/prospective-students" class="rows">Prospective Students</a>
+                    <a href="/fee-structure" class="rows">Fee Structure</a>
+                    <a href="https://admissions.ghschools.online" class="rows">Apply Online</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="/contact" class="rows">CONTACTS</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="rows page-section section">
+            <div id="general" class="container-element">
+                <h3 class="container-heading">HOME <i class="icofont-caret-right"></i> OUR DEPARTMENTS</h3>
+                <div class="container-content">
+                    <h3>About The Faculty</h3>
+                    <p>The GH Media School started with two main departments – Broadcast Journalism and Television & 
+                        Film Production. Progressively, the departments have increased to four (4) for the 
+                        Media School namely:</p>
+                    <ul>
+                        <li><a href="#jms">Journalism and Media Studies</a></li>
+                        <li><a href="#jma">Journalism and Media Arts</a></li>
+                        <li><a href="#tfp">TV and Film Production</a></li>
+                        <li><a href="#tfp">Multimedia Production</a></li>
+                    </ul>
+                    <!-- <p>
+                        Here are some pictures of the department
+                    </p>
+                    <div class="rows">
+                        <figure class="cols">
+                            <img src="../assets/images/IMG_20200618_155126_054.jpg" alt="" style="width: 10rem; height: 10rem;">
+                            <figcaption>Figure 1: First</figcaption>
+                        </figure>
+                        
+                        <figure class="cols">
+                            <img src="../assets/images/IMG_20200618_155126_054.jpg" alt="" style="width: 10rem; height: 10rem;">
+                            <figcaption>Figure 2: Second</figcaption>
+                        </figure>
+
+                        <figure class="cols">
+                            <img src="../assets/images/IMG_20200618_155126_054.jpg" alt="" style="width: 10rem; height: 10rem;">
+                            <figcaption>Figure 3: Third</figcaption>
+                        </figure>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div id="jms" class="rows page-section section-bg">
+            <div class="container-element">
+                <h3 class="container-heading">JOURNALISM AND MEDIA STUDIES (JMS)</h3>
+                <div class="container-content">
+                    <p>The Journalism and Media Studies program encourages students to develop a 
+                        critical, ethical, and deliberative paradigm for the practice of journalism 
+                        as a public service. We seek to cultivate proficiencies in storytelling 
+                        across platforms and subject areas and inspire our students to embrace the 
+                        potential for innovation that exists in our media environment. Find your voice 
+                        with us and use it to tell meaningful stories to make for a more informed 
+                        democracy. 
+                    </p>
+                    <p>The GH Media School is also a prominent Creative-based wing of the proper model 
+                        for this dispensation of the dynamism required in information inquiry, the 
+                        gathering, writing the management and the dissemination.
+                    </p>
+                    <p>The Students linguistic prowess, research flair and the solid areas of delivery 
+                        is enhanced and brought to the fore through this school.
+                    </p>
+                    <p>Future Media prospects after reorientation under this wing, will have the singular 
+                        privilege to compete with the “joneses” and the soaring giants within the industry 
+                        due to the courses-based structured component which include;
+                    </p>
+
+                    <h3>Course Content</h3>
+                    <ul>
+                        <li>TV Presenting / TV Journalism</li>
+                        <li>Radio Presenting / Radio Journalism</li>
+                        <li>Newspaper Reporting / Print Journalism</li>
+                        <li>Media Marketing / Media Law</li>
+                        <li>Broadcast Journalism / Advanced Journalism</li>
+                    </ul>
+                    
+                    <h3>Core Courses</h3>
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>African Studies</li>
+                        <li>ICT</li>
+                        <li>Entrepreneurship</li>
+                        <li>Production Management</li>
+                    </ul>
+
+                    <h3>Course Duration</h3>
+                    <ul>
+                        <li>CERTIFICATE OF COMPETENCE - 1 YEAR</li>
+                        <li>ADVANCE CERTIFICATE OF COMPETENCE - 2 YEARS</li>
+                        <li>CTVET DIPLOMA CERTIFICATE - 2 YEARS (CERTIFICATION BY CTVET / ACADEMIC ADVANCE CERTIFICATE)</li>
+                    </ul>
+
+                    <i>This course is a full-time study</i>
+                </div>
+            </div>
+        </div>
+
+        <div id="jma" class="rows page-section section">
+            <div class="container-element">
+                <h3 class="container-heading">JOURNALISM AND MEDIA ARTS (JMA)</h3>
+                <div class="container-content">
+                    <p>The GH Media School is also a prominent Creative-based wing of the proper model 
+                        for this dispensation of the dynamism required in information inquiry, the gathering, 
+                        writing the management and the dissemination.
+                        The Students linguistic prowess, research flair and the solid areas of delivery is 
+                        enhanced and brought to the fore through this school.
+                    </p>
+                    <p>Future Media prospects after reorientation under this wing, will have the singular 
+                        privilege to compete with the “joneses” and the soaring giants within the industry 
+                        due to the courses-based structured component which include;
+                    </p>
+
+                    <h3>Course Content</h3>
+                    <ul>
+                        <li>TV Presenting / TV Journalism</li>
+                        <li>Radio Presenting / Radio Journalism</li>
+                        <li>Radio, TV and Film Producing</li>
+                        <li>Professional Acting</li>
+                        <li>Theater Arts</li>
+                    </ul>
+                    
+                    <h3>Core Courses</h3>
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>African Studies</li>
+                        <li>ICT</li>
+                        <li>Entrepreneurship</li>
+                        <li>Production Management</li>
+                    </ul>
+
+                    <h3>Course Duration</h3>
+                    <ul>
+                        <li>CERTIFICATE OF COMPETENCE - 1 YEAR</li>
+                        <li>ADVANCE CERTIFICATE OF COMPETENCE - 2 YEARS</li>
+                        <li>CTVET DIPLOMA CERTIFICATE - 2 YEARS (CERTIFICATION BY CTVET / ACADEMIC ADVANCE CERTIFICATE)</li>
+                    </ul>
+
+                    <i>This course is a full-time study</i>
+                </div>
+            </div>
+        </div>
+
+        <div id="tfp" class="rows page-section section-bg">
+            <div class="container-element">
+                <h3 class="container-heading">TV AND FILM PRODUCTION (TFP)</h3>
+                <div class="container-content">
+                    <p>Everywhere you look these days, there are screens that need content. The School 
+                        of Film & Television Production teaches students how to make compelling, 
+                        in-demand content for screens of every size-whether it's IMAX or a hand-held 
+                        device. At GH Media, students quickly become adept at the tools of the trade, 
+                        from cameras, light kits, and editing software to the newest cutting-edge 
+                        techniques and technologies that are changing the professional production 
+                        process.
+                    </p>
+                    <p>Film & Television Production, equips students with a thorough understanding of the technical and aesthetic aspects of the moving image. Production courses cover all aspects of filmmaking and promote a collaborative environment for learning the expression of original ideas through film and video.
+                    </p>
+
+                    <h3>Course Content</h3>
+                    <ul>
+                        <li>Art Direction</li>
+                        <li>TV and Film Directing</li>
+                        <li>Digital Video Editing</li>
+                        <li>Camera Operations & Light</li>
+                        <li>Sound Production and Engineering</li>
+                    </ul>
+                    
+                    <h3>Core Courses</h3>
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>African Studies</li>
+                        <li>ICT</li>
+                        <li>Entrepreneurship</li>
+                        <li>Production Management</li>
+                    </ul>
+
+                    <h3>Course Duration</h3>
+                    <ul>
+                        <li>CERTIFICATE OF COMPETENCE - 1 YEAR</li>
+                        <li>ADVANCE CERTIFICATE OF COMPETENCE - 2 YEARS</li>
+                        <li>CTVET DIPLOMA CERTIFICATE - 2 YEARS (CERTIFICATION BY CTVET / ACADEMIC ADVANCE CERTIFICATE)</li>
+                    </ul>
+
+                    <i>This course is a full-time study</i>
+                </div>
+            </div>
+        </div>
+        <div id="mmp" class="rows page-section section-bg">
+            <div class="container-element">
+                <h3 class="container-heading">MULTIMEDIA PRODUCTION (MMP)</h3>
+                <div class="container-content">
+                    <p>The main purpose of the Diploma in Multimedia Production program is to impart professional knowledge and expertise required for Multimedia Production in the media industry.
+The Production sector of the media industry has undergone a vast change in the last few years with regard to multimedia Production. The production processes have seen a high level of creativity to achieve the maximum results. This has placed a demand for a certain level of creative personnel that meet the ever changing need in the industry which requires a blend of carefully chosen courses to produce individuals with the competency, creativity, right attitude and a strong drive to make a difference.</p> 
+<p>The programme focuses on industry relevant courses in practical areas that will serve as a bridge between academia and industry with an in-depth innovative facilitation by team of faculty members that delivers out of their years of expertise to create a pool of competent, competitive and relevant students.</p>
+<p>The program includes courses that provide the student with core courses such as production management, communication skills, Entrepreneurship and African Studies. Students will be trained in Editing, Production design, Sound Production, 2D and 3D Animations, Graphic designs, sound engineering, Post Production Animation.</p>
+<p>The course delivers a combination of technology and business related modules every semester, many of which are designed around accredited material from our industry practitioners. This affords students the opportunity to complement academic studies with hands-on experience with relevant industry practice. </p>
+
+                    <h3>Course Content</h3>
+                    <ul>
+                        <li>Camera Operations & Lighting</li>
+                        <li>Digital Video Editing</li>
+                        <li>Sound Production/engineering</li>
+                        <li>Directing And Script Writing</li>
+                        <li>Post Production Design</li>
+                    </ul>
+                    
+                    <h3>Core Courses</h3>
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>African Studies</li>
+                        <li>ICT</li>
+                        <li>Entrepreneurship</li>
+                        <li>Production Management</li>
+                    </ul>
+
+                    <h3>Course Duration</h3>
+                    <ul>
+                        <li>CERTIFICATE OF COMPETENCE - 1 YEAR</li>
+                        <li>ADVANCE CERTIFICATE OF COMPETENCE - 2 YEARS</li>
+                        <li>CTVET DIPLOMA CERTIFICATE - 2 YEARS (CERTIFICATION BY CTVET / ACADEMIC ADVANCE CERTIFICATE)</li>
+                    </ul>
+
+                    <i>This course is a full-time study</i>
+                </div>
+            </div>
+        </div>
+
+        <div class="cols-reverse sticky-chat-action" style="position: fixed;">
+            <span style="display: flex; flex-direction: column; align-items: center;">
+                <button onclick="(function(ev){window.location.href = 'https://wa.me/+233204622250'}())">
+                    <i class="icofont-brand-whatsapp"></i>
+                </button>
+                WhatsApp Us
+            </span>
+            <style>
+
+                .sticky-chat-action{
+                    right: 14vmin; bottom: 10rem;
+                }
+
+                .sticky-chat-action button{
+                    padding: 1rem;
+                    background-color: orange;
+                    background-image: radial-gradient(#ff1d1d 50%, #cc0000);
+                    color: white;
+                    border-radius: 50%;
+                    border: none;
+                    width: 6rem;
+                    height: 6rem;
+                    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+                    transition: all 0.3s ease;
+                    outline: none;
+                    font-size: 1.5rem;
+                    margin-top: 0.5rem;
+                }
+
+                .sticky-chat-action button i{
+                    font-size: 2.3rem;
+                }
+
+                .sticky-chat-action > button{
+                    margin-top: 0.8rem;
+                }
+
+                .sticky-chat-action > button.open{
+                    transform: scale(1.1);
+                    background-image: none;
+                    background-color: orange;
+                }
+
+                .sticky-chat-action .chat-actions{
+                    height: 0;
+                    transition: all 0.3s ease;
+                }
+
+                .sticky-chat-action .chat-actions.open{
+                    height: 130px;
+                }
+
+                @media only screen and (max-width:800px){
+                    .sticky-chat-action{
+                        right: 3.5rem;
+                        bottom: 8rem;
+                    }
+                }
+            </style>
+
+            <script>
+                document.querySelectorAll(".sticky-chat-action > button").forEach(actionButton => {
+                    actionButton.addEventListener("click", function(ev){
+                        ev.currentTarget.classList.toggle("open");
+                        document.querySelectorAll(".sticky-chat-action .chat-actions").forEach(btns => {
+                            btns.classList.toggle("open");
+                        });
+                        
+                        if (ev.currentTarget.classList.contains("open")) {
+                            ev.currentTarget.innerHTML = "<i class='icofont-close'></i>";
+                        }else{
+                            ev.currentTarget.innerHTML = "<i class='icofont-ui-chat'></i>";
+                        }
+                    });
+                })
+            </script>
+        </div>
+    </main>
+
+    <footer class="cols">
+        <div class="top rows">
+            <a href="/" class="footer-logo"><img src="../GH Schools.png" alt="" class="footer-logo"></a>
+            <div class="cols">
+                <strong>Social Media</strong>
+                <span class="social-label">GH Media Social Media</span>
+                <div class="rows social-icons">
+                    <a href="https://www.facebook.com/ghmediasch/" target="blank" class="icon"><i class="icofont-facebook"></i></a>
+                    <a href="https://twitter.com/ghmediaschool" target="blank" class="icon"><i class="icofont-twitter"></i></a>
+                    <a href="https://www.instagram.com/ghmediaschool/" target="blank" class="icon"><i class="icofont-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCuRGvNkzD0Wr2Hem8DitZvw" target="blank" class="icon"><i class="icofont-youtube"></i></a>
+                </div>
+
+                <span style="margin-top: 0.4rem;" class="social-label">GH Schools Social Media</span>
+                <div class="rows social-icons">
+                    <a href="#" target="blank" class="icon"><i class="icofont-facebook"></i></a>
+                    <a href="https://twitter.com/gh_schools" target="blank" class="icon"><i class="icofont-twitter"></i></a>
+                    <a href="https://www.instagram.com/gh_schools/" target="blank" class="icon"><i class="icofont-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCd_EDOYO2-BWy7fNJepuXCQ/featured" target="blank" class="icon"><i class="icofont-youtube"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <strong>Info</strong>
+                <ul>
+                    <li><a href="https://admissions.ghschools.online/rules_and_regulation">Rules And Regulations</a></li>
+                    <li><a href="https://www.ghcosmetology.com">GH COSMETOLOGY SCHOOL</a></li>
+                    <li><a href="https://www.ghfashionschool.com">GH FASHION SCHOOL</a></li>
+                </ul>
+            </div>
+
+            <div class="cols">
+                <strong>Contact Us</strong>
+                <span>Achimota Accra near Achimota New Transport Terminal and Adjacent the Achimota ICGC</span>
+                <span class="rows" style="align-items: center;">Phone: <a href="tel:+233302424909">+233 30 242 4909</a> (landline)</span>
+                <span class="rows" style="align-items: center;">Alt. 1: <a href="tel:+233204622250">+233 20 462 2250</a></span>
+                <span class="rows" style="align-items: center;">Alt. 2: <a href="tel:+233277622250">+233 27 762 2250</a></span>
+                <span class="rows" style="align-items: center;">Alt. 3: <a href="tel:+233544622250">+233 54 462 2250</a></span>
+                <span class="rows" style="align-items: center;">Email: <a href="mailto:admissions@ghschools.online">admissions@ghschools.online</a></span>
+                <span class="rows" style="align-items: center;">Sign Up To Our<a href="/contact">Newsletter</a></span>
+            </div>
+        </div>
+        <div class="bottom cols">
+            <span>GH Schools <span id="footyear">2020</span>, all rights reserved</span>
+            <span class="rows" style="align-items: center;">Powered by<a href="https://learnira.org" target="blank">Learnira</a></span>
+        </div>
+    </footer>
+</body>
+</html>

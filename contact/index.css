@@ -1,0 +1,132 @@
+/* For both PC and Mobile */ 
+main .page-section{
+    position: relative;
+    padding: 1rem;
+}
+
+main .page-section .container-element > *:first-child{
+    align-items: center;
+    padding: 0.6rem 0;
+}
+
+main .page-section .container-element .intro{
+    font-size: 1.3rem;
+    margin: 4rem 3rem 2rem 5rem;
+    font-weight: 300;
+}
+
+main .page-section .container-button{
+    background-color: var(--main-color-code);
+    color: var(--bright-text-color);
+    padding: 1.3rem 1rem;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 0;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content{
+    font-size: 1.20rem;
+    font-size: calc(1rem + 0.18vw);
+    line-height: 1.5 !important;
+    color: #bbb;
+}
+
+main .page-section .form-wrapper{
+    min-width: 400px;
+    max-width: 550px;
+    margin: 3rem auto 5rem;
+    background-color: #050505;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+main .page-section .form-wrapper .form-line{
+    margin: 0 0.5rem 2rem;
+}
+
+main .page-section .form-wrapper .form-line input:not([type="submit"]), 
+main .page-section .form-wrapper .form-line textarea{
+    padding: 1.3rem 3rem;
+    background-color: #eee;
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+}
+
+main .page-section .form-wrapper button[type="submit"]{
+    /* border: 1px solid red; */
+    border-radius: 3px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+main .page-section .form-wrapper button[type="submit"].loading{
+    background-color: #aaa;
+    color: #444;
+    cursor: wait;
+}
+
+main .page-section .form-wrapper .status-box{
+    background-color: rgba(243, 10, 10, 0.65);
+    /* background-color: #49d449; */
+    color: white;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+main .page-section .form-wrapper .status-box.hide{
+    display: none;
+}
+
+main .page-section .form-wrapper .status-box span{
+    margin-left: 1rem;
+}
+
+footer{
+    margin: 0;
+    background-color: var(--page-bgcolor-v0);
+}
+
+/* For Mobile Users Only */
+@media only screen and (max-width:800px){
+    main .page-section .container-element{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    main .page-section .container-element .intro{
+        font-size: 1.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    main .page-section .container-element > *:first-child{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    main .page-section #send-message-form{
+        width: 100%;
+        min-width: unset;
+    }
+}
+
+@media only screen and (max-width:400px){
+    main .page-section #send-message-form .rows.form-line{
+        flex-direction: column !important;
+    }
+
+    main .page-section #send-message-form .rows.form-line > *{
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,211 @@
+/* For both PC and Mobile */ 
+body{
+    background-color: var(--page-bgcolor-v2);
+}
+
+header{
+    margin-bottom: 0 !important;
+}
+
+main .page-section{
+    padding: 1rem;
+    background-color: var(--page-bgcolor-v3);
+}
+
+main figcaption{
+    margin-top: 2px;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+main .table-content.page-section{
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(83, 78, 0, 0.6)),url("../assets/images/green-chameleon-WvuTnXz1hSc-unsplash.jpg");
+    background-color: black;
+    padding-bottom: 7rem;
+    /* min-height: calc(100vmin - 9rem); */
+}
+
+main aside.table-content.page-section{
+    position: fixed;
+    width: auto;
+    background-image: none;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 78, 0, 0.6)),url("../assets/images/green-chameleon-WvuTnXz1hSc-unsplash.jpg"); */
+    z-index: +300;
+}
+
+main aside.table-content.page-section:hover .container-element{
+    min-height: unset;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+main .table-content.page-section ul{
+    margin: 0.5rem 0;
+}
+
+main .table-content.page-section li:hover{
+    background-color: rgba(51, 51, 51, 0.5);
+    padding: 0.5rem 1rem;
+}
+
+main .table-content.page-section a{
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+}
+
+main .table-content.page-section li{
+    transition: all 0.2s linear;
+}
+
+main .table-content.page-section .container-content > li{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+main .table-content.page-section .container-content ul a{
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    color: #eee;
+    /* border-bottom: 1px dashed #ccc; */
+}
+
+main .page-section .container-heading{
+    position: relative;
+    padding: 0;
+    color: var(--bright-text-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 1.8rem;
+    text-align: left;
+}
+
+main .page-section.section-bg{
+    margin: 0;
+    background-color: var(--page-bgcolor-v1);
+}
+
+main .page-section .container-element{
+    padding: 4rem;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+main .page-section .container-button{
+    background-color: var(--main-color-code);
+    color: var(--bright-text-color);
+    padding: 1.3rem 1rem;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 0;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content{
+    margin-top: 3rem;
+    font-size: 1.20rem;
+    font-size: calc(1.1rem + 0.16vw);
+    line-height: 1.5 !important;
+    color: #aaa;
+}
+
+main .page-section .container-content h3{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    margin-top: 2rem;
+    border-bottom: 1px dashed #aaa;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content h3:first-child{
+    margin-top: 0;
+}
+
+footer{
+    margin-top: 1rem !important;
+    background-color: var(--page-bgcolor-v0);
+}
+
+/* For Mobile Users Only */
+@media only screen and (max-width:800px){
+    main .page-section.section-one{
+        flex-wrap: wrap;
+        justify-content: center;
+        background-size: 100%;
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* background-color: red; */
+    }
+
+    main .page-section .container-button{
+        background-color: var(--highlight-color-code);
+        color: var(--dark-text-color);
+        margin-right: 0;
+    }
+    
+    main .page-section.section-one .container-element{
+        margin: 0rem 1.5rem 4rem;
+        width: calc(100% - 3rem);
+        min-height: 300px;
+        padding: 4rem;
+        border-radius: 0;
+        position: relative;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(57, 5, 1, 0.8), rgba(57, 5, 1, 0.8)), url("./assets/images/pexels-kaique-rocha-65438.jpg");
+    }
+
+    main .page-section.section-one .container-element:last-child{
+        margin-bottom: 1rem;
+    }
+
+    main .page-section.section-one .container-element .icon-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        padding: 1rem 1.5rem; 
+        margin-top: 0;
+        background-color: var(--page-bgcolor-v3);
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    main .page-section.section-one .container-element .icon{
+        color: var(--bright-text-color);
+    }
+
+    main .page-section.section-one .container-content{
+        font-size: 1.15rem;
+    }
+
+    main .page-section .bio-container .bio-wrapper, main .page-section .news-container .news-wrapper{
+        margin: 1.5rem 0;
+        width: calc(100% - 2rem);
+    }
+
+    main .page-section .news-container .news-wrapper{
+        margin: 1rem 0;
+        width: 100%;
+    }
+    
+}

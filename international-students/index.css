@@ -1,0 +1,193 @@
+/* For both PC and Mobile */ 
+body{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/pexels-susana-angel-román-1272887.jpg"); */
+    background-color: var(--page-bgcolor-v1);
+}
+
+main .page-section{
+    position: relative;
+    padding: 1rem;
+}
+
+main .page-section .container-element{
+    padding: 2rem 3rem;
+    width: 100%;
+}
+
+main .page-section .container-button{
+    background-color: var(--main-color-code);
+    color: var(--bright-text-color);
+    padding: 1.3rem 1rem;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 0;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content{
+    font-size: 1.50rem;
+    font-size: calc(1.4rem + 0.18vw);
+    line-height: 1.5 !important;
+    color: #bbb;
+}
+
+main .page-section img#international-map{
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 400px;
+    max-height: 550px;
+    object-fit: contain;
+    -o-object-fit: contain;
+}
+
+
+main .page-section .testimony-container{
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+main .page-section .testimony-container .testimony-wrapper{
+    margin: 1rem;
+    width: calc(50% - 2rem);
+    min-width: 15rem;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 2rem;
+    transition: all 0.3s linear;
+    border-radius: 5px 5px 0 5px;
+}
+
+main .page-section .testimony-container .testimony-wrapper > *:first-child{
+    align-items: center;
+    width: auto;
+    min-width: 150px;
+    justify-content: center;
+}
+
+main .page-section .testimony-container .testimony-wrapper > *:nth-child(2){
+    padding: 1.5rem 1rem 1.5rem 2.2rem;
+    justify-content: center;
+}
+
+main .page-section .testimony-container img.avatar{
+    object-fit: cover;
+    width: 8vw;
+    height: 8vw;
+    min-height: 9rem;
+    min-width: 9rem;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    margin-bottom: 1rem;
+}
+
+main .page-section .testimony-container .testimony-name{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+main .page-section .testimony-container .testimony-location{
+    color: #aaa;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+main .page-section .testimony-container .testimony{
+    height: auto;
+    min-height: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+    font-style: italic;
+}
+
+main .page-section .testimony-container .testimony::before, main .page-section .testimony-container .testimony::after{
+    content: "\"";
+}
+
+main .page-section .testimony-container figcaption{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    width: 100%;
+}
+
+
+footer{
+    margin: 0;
+    background-color: var(--page-bgcolor-v0);
+}
+
+/* For Mobile Users Only */
+@media only screen and (max-width:800px){
+    main .page-section .container-element{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    main .page-section .container-heading::after{
+        width: 2.5rem;
+    }
+
+    main .page-section .container-button{
+        background-color: var(--highlight-color-code);
+        color: var(--dark-text-color);
+        margin-right: 0;
+    }
+
+    main .page-section .testimony-container .testimony-wrapper .testimony{
+        margin-bottom: 2rem;
+    }
+
+    main .page-section .testimony-container .testimony-wrapper{
+        margin: 1rem 0;
+        width: 100%;
+        min-width: 15rem;
+        /* transition: all 0.3s linear; */
+    }
+
+    main .page-section .testimony-container img.avatar{
+        width: 27vw;
+        height: 27vw;
+        max-width: 140px;
+        max-height: 140px;
+        min-height: 12rem;
+        min-width: 12rem;
+    }
+
+}
+
+@media only screen and (max-width:500px){
+    main .page-section .testimony-container .testimony-wrapper{
+        flex-wrap: wrap;
+    }
+
+    main .page-section .testimony-container .testimony-wrapper > *:first-child{
+        margin: auto;
+    }
+
+    main .page-section .testimony-container img.avatar{
+        width: 10rem;
+        height: 10rem;
+        width: 25vw;
+        height: 25vw;
+        max-width: 150px;
+        max-height: 150px;
+    }
+}

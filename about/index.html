@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT GH MEDIA SCHOOL</title>
+    <!-- Load all fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,200;1,400&display=swap" rel="stylesheet">
+    <!-- Load all CSS stylesheets -->
+    <link rel="stylesheet" href="../icofont.min.css">
+    <link rel="stylesheet" href="../clamp.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- Load all javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="../assets/lib/scrollreveal.min.js"></script>
+    <script src="../assets/lib/appear.min.js"></script>
+    <script src="../global.js"></script>
+    <script src="index.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZTBV2YJBX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZTBV2YJBX');
+</script>
+</head>
+<body>
+    <header>
+        <div class="rows top-wrapper">
+            <div class="rows header-label">
+                <a href="/" class="logo-wrapper"><img src="../Gh Media School.png" alt="" class="logo"></a>
+                <a href="/" class="logo-text">GH MEDIA SCHOOL</a>
+            </div>
+
+            <nav class="rows">
+                <div class="cols center hide-on-mobile">
+                    <a href="/" class="rows center hide-on-mobile">HOME</a>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="/departments" class="rows center hide-on-mobile trigger">DEPARTMENT</a>
+                    <div class="trigger-content">
+                        <a href="/about" class="rows">About GH Media School</a>
+                        <a href="/departments#jms" class="rows">Journalism And Media Studies</a>
+                        <a href="/departments#jma" class="rows">Journalism And Media Art</a>
+                        <a href="/departments#tfp" class="rows">TV And Film Production</a>
+                        <a href="/departments#mmp" class="rows">Multimedia Production</a>
+                        <a href="/accreditation" class="rows">Accreditation & Awards</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">STAFF</a>
+                    <div class="trigger-content">
+                        <a href="/faculty-members" class="rows">Faculty Members</a>
+                        <a href="/facilities" class="rows">Our Facilities</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">MEDIA</a>
+                    <div class="trigger-content">
+                        <a href="https://weblog.ghschools.online/category/latest-news/" target="blank" class="rows">Latest News</a>
+                        <a href="https://weblog.ghschools.online/category/upcoming-events/" target="blank" class="rows">Upcoming Events</a>
+                        <a href="https://weblog.ghschools.online/" target="blank" class="rows">Online Weblog</a>
+                        <a href="https://zeno.fm/gh-radio-online" target="blank" class="rows">Online Radio</a>
+                        <a href="/productions" class="rows">Productions</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">STUDENTS</a>
+                    <div class="trigger-content">
+                        <a href="#" class="rows">Campus Life</a>
+                        <a href="/international-students" class="rows">International Student</a>
+                        <a href="#" class="rows">Hostel</a>
+                        <a href="https://192.168.100.200/studentportal" class="rows" target="blank">Student Portal</a>
+                        <a href="https://elearning.ghschools.online/moodle" class="rows" target="blank">E-learning</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="#" class="rows center hide-on-mobile trigger">ADMISSIONS</a>
+                    <div class="trigger-content">
+                        <a href="/admission-criteria" class="rows">Admission Criteria</a>
+                        <a href="/prospective-students" class="rows">Prospective Students</a>
+                        <a href="/fee-structure" class="rows">Fee Structure</a>
+                        <a href="https://admissions.ghschools.online" class="rows">Apply Online</a>
+                    </div>
+                </div>
+                <div class="cols center hide-on-mobile">
+                    <a href="/contact" class="rows center hide-on-mobile">CONTACTS</a>
+                </div>
+                
+                <button id="open-mobile-menu" class="rows center hide-on-pc"><i class="icofont-navigation-menu"></i></button>
+            </nav>
+        </div>
+
+        <nav class="cols mobile-menu hide-on-pc">
+            <button id="close-mobile-menu" class="strip-btn rows icofont-close"></button>
+            <div class="cols">
+                <a href="/" class="rows">
+                    <span>HOME</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+            </div>
+            <div class="cols">
+                <a href="/departments" class="rows m-trigger"  style="align-items: center; justify-content: space-between;">
+                    <span>DEPARTMENT</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="/about" class="rows">About GH Schools</a>
+                    <a href="/departments#jms" class="rows">Journalism And Media Studies</a>
+                    <a href="/departments#jma" class="rows">Journalism And Media Art</a>
+                    <a href="/departments#tfp" class="rows">TV And Film Production</a>
+                    <a href="/accreditation" class="rows">Accreditation & Awards</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger" style="align-items: center; justify-content: space-between;">
+                    <span>FACULTY</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="/faculty-members" class="rows">Faculty Members</a>
+                    <a href="/facilities" class="rows">Our Facilities</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger">
+                    <span>MEDIA</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="#latest-news" class="rows">Latest News</a>
+                    <a href="#upcoming-events" class="rows">Upcoming Events</a>
+                    <a href="http://www.myghonline.com" target="blank" class="rows">Online Weblog</a>
+                    <a href="https://zeno.fm/gh-radio-online" target="blank" class="rows">Online Radio</a>
+                    <a href="/productions" class="rows">Productions</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger">
+                    <span>STUDENTS</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="#" class="rows">Campus Life</a>
+                    <a href="/international-students" class="rows">International Student</a>
+                    <a href="#" class="rows">Hostel</a>
+                    <a href="https://192.168.100.200/studentportal" class="rows" target="blank">Student Portal</a>
+                    <a href="https://elearning.ghschools.online/moodle" class="rows" target="blank">E-learning</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="#" class="rows m-trigger">
+                    <span>ADMISSIONS</span>
+                    <span class="icofont-caret-right"></span>
+                </a>
+                <div class="m-trigger-content">
+                    <a href="/admission-criteria" class="rows">Admission Criteria</a>
+                    <a href="/prospective-students" class="rows">Prospective Students</a>
+                    <a href="/fee-structure" class="rows">Fee Structure</a>
+                    <a href="https://admissions.ghschools.online" class="rows">Apply Online</a>
+                </div>
+            </div>
+            <div class="cols">
+                <a href="/contact" class="rows">CONTACTS</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="cols page-section table-content">
+            <div class="rows center container-controller">
+                <i class="icofont-caret-up"></i>
+                <span style="margin-left: 0.5rem;">Table Of Content</span>
+            </div>
+            <div class="container-element">
+                <h3 class="container-heading">TABLE OF CONTENT</h3>
+                <ul class="cols container-content">
+                    <li><a href="#general-overview">General Overview</a></li>
+                    <li><a href="#our-commitment">Our Commitment</a></li>
+                    <li><a href="#vision-mission">Vision And Mission</a></li>
+                    <ul>
+                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#mission">Mission</a></li>
+                        <li><a href="#objective">Objective</a></li>
+                        <li><a href="#dream">Our Dream</a></li>
+                        <li><a href="#values">Our Values</a></li>
+                        <li><a href="#strategy">The Strategy</a></li>
+                        <li><a href="#qa">Quality Assurance</a></li>
+                        <li><a href="#module-design">Principles Of Module Design</a></li>
+                        <li><a href="#quality-management">Quality Management Policy</a></li>
+                    </ul>
+                    <li><a href="#philosophy">The Philosophy</a></li>
+                    <li><a href="#administration">Administration</a></li>
+                    <ul>
+                        <li><a href="#management-board">The Management Board</a></li>
+                        <li><a href="#head-of-school">Head of Schools</a></li>
+                        <li><a href="#registrar">The Registrar</a></li>
+                        <li><a href="#students-affairs-directorate">The Students Affairs Directorate</a></li>
+                        <li><a href="#finance-directorate">Finance Directorate</a></li>
+                        <li><a href="#academic-affairs-directorate">Academic Affairs Directorate</a></li>
+                        <li><a href="#student-prod-directorate">Students Production Directorate</a></li>
+                        <li><a href="#marketing-directorate">Marketing Directorate</a></li>
+                        <li><a href="#communication-directorate">Communication Directorate</a></li>
+                        <li><a href="#human-resource-directorate">Human Resource Directorate</a></li>
+                    </ul>
+                    <li><a href="#chancellor-office">Office Of The Chancellor</a></li>
+                    <ul>
+                        <li><a href="#chancellor">Chancellor</a></li>
+                    </ul>
+                    <li><a href="#rector-office">Office Of The Rector</a></li>
+                    <ul>
+                        <li><a href="#rectorate">The Rectorate</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </aside>
+
+        <div id="toc" class="rows page-section table-content">
+            <div class="container-element">
+                <h3 class="container-heading">TABLE OF CONTENT</h3>
+                <ul class="cols container-content">
+                    <li><a href="#general-overview">General Overview</a></li>
+                    <li><a href="#our-commitment">Our Commitment</a></li>
+                    <li><a href="#vision-mission">Vision And Mission</a></li>
+                    <ul>
+                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#mission">Mission</a></li>
+                        <li><a href="#objective">Objective</a></li>
+                        <li><a href="#dream">Our Dream</a></li>
+                        <li><a href="#values">Our Values</a></li>
+                        <li><a href="#strategy">The Strategy</a></li>
+                        <li><a href="#qa">Quality Assurance</a></li>
+                        <li><a href="#module-design">Principles Of Module Design</a></li>
+                        <li><a href="#quality-management">Quality Management Policy</a></li>
+                    </ul>
+                    <li><a href="#philosophy">The Philosophy</a></li>
+                    <li><a href="#administration">Administration</a></li>
+                    <ul>
+                        <li><a href="#management-board">The Management Board</a></li>
+                        <li><a href="#head-of-school">Head of Schools</a></li>
+                        <li><a href="#registrar">The Registrar</a></li>
+                        <li><a href="#students-affairs-directorate">The Students Affairs Directorate</a></li>
+                        <li><a href="#finance-directorate">Finance Directorate</a></li>
+                        <li><a href="#academic-affairs-directorate">Academic Affairs Directorate</a></li>
+                        <li><a href="#student-prod-directorate">Students Production Directorate</a></li>
+                        <li><a href="#marketing-directorate">Marketing Directorate</a></li>
+                        <li><a href="#communication-directorate">Communication Directorate</a></li>
+                        <li><a href="#human-resource-directorate">Human Resource Directorate</a></li>
+                    </ul>
+                    <li><a href="#chancellor-office">Office Of The Chancellor</a></li>
+                    <ul>
+                        <li><a href="#chancellor">Chancellor</a></li>
+                    </ul>
+                    <li><a href="#rector-office">Office Of The Rector</a></li>
+                    <ul>
+                        <li><a href="#rectorate">The Rectorate</a></li>
+                    </ul>                    
+                </ul>
+            </div>
+        </div>
+
+        <div id="general-overview" class="rows page-section section-bg">
+            <div class="container-element">
+                <h3 class="container-heading">GENERAL OVERVIEW</h3>
+                <div class="container-content">
+                    <p>GH Media School was established by Mr. Leslie Addo-Listowell, out of a 
+                        mother company called &quot;Media Tribe Studio 233&quot;, a multimedia company 
+                        with a special focus on the production of branded and non-branded content 
+                        for TV Stations across the country. 
+                    </p>
+                    <p>In March 2014, the school started with the first batch of students numbering
+                         37; with three lecturers (Late Dr. Williams Opare, Mr. Clifford Ladzekpo, 
+                         and Mr. Romeo Agyekum) and Mrs. Hilda Doe Manieson as the first Dean of 
+                         Students.
+                    </p>
+                    <p>The school started with two main departments – Broadcast Journalism and 
+                        Television & Film Production. Progressively, the departments have increased
+                         to four (4) for the Media School namely:
+                    </p>
+                    <ol>
+                        <li>Journalism and Media Studies Department</li>
+                        <li>Television and Film Production Department</li>
+                        <li>Journalism and Media Arts Department</li>
+                        <li>Multimedia Production</li>
+                    </ol>
+                    <p>In Addition to the Media School, we currently have four additional schools namely:</p>
+                    <ul>
+                        <li>GH Cosmetology School</li>
+                        <li>GH Fashion School</li>
+                        <li>GH Catering School</li>
+                        <li>GH Technology School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="our-commitment" class="rows page-section section">
+            <div id="about-gh" class="container-element">
+                <h3 class="container-heading">OUR COMMITMENT</h3>
+                <div class="container-content">
+                    <p>
+                        In Ghana, education and training is seen in the broadest sense as indicating values
+                         and appropriate models of behavior and imparting skills meant to prepare an individual
+                         to participate effectively as a useful member of the society. It is a pressing
+                         priority of government to improve the quality of human resources in the country which
+                         is vital in providing productive and skilled workforce that would contribute to
+                         socio-economic growth, consequently GH Media School has identified the consideration
+                         for the introduction of Competence Based Training (CBT) and Skills Based Training (SBT)
+                         in the TVET system to train people in the areas of JOURNALISM, TELEVISION and FILM 
+                         PRODUCTION, and other Media related fields.
+                    </p>
+                    <p>
+                        GH Media School has identified that the Television and Film industry has been subjected
+                         to a huge paradigm shift since 2002 and have designed models which will provide the skills,
+                         knowledge and manpower relevant to the needs of the industry. The models are outcome-based,
+                         industry driven models and programs, based on industrial needs and generated from industry
+                         standards.
+                    </p>
+                    <p>
+                        The curriculum, assessment and learning materials are designed and developed based on the
+                         needs of the industry. The models are designed to deliver practical skills and competences
+                         which are expressed in outcomes. The models are facilitated to enhance our students'
+                         ability to transfer skills and knowledge to new situations. The models have clear measurable
+                         standards which are meant to develop competent individuals with transferable skills, and
+                         also provide objective quality assured system which have the confidence of all parties
+                         including the learners, the educational institution and the employers or the industry.
+                    </p>
+                    <p>
+                        The models fully develop the learner's individual potentials and promote the concept of
+                         skilled and competence based lifelong learning. The models links education and training
+                         to competence and skills needed by the employers and the standards in the industry. The
+                         models focus on skills, knowledge and attitude, and are flexible in delivery and facilitation.
+                         Assessment are related to the standards which are done on a continuous basis. The objective
+                         of the models is to increase motivation amongst learners, encourage team work and most
+                         importantly produce competent and skilled graduates with transferable skills. For us at 
+                         GH Media School, we are the Polytechnic of media education in Ghana.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="vision-mission" class="rows page-section section-bg">
+            <div class="container-element">
+                <h3 class="container-heading">Vision and Mission</h3>
+                <div class="container-content">
+                    <h3 id="vision">VISION</h3>
+                    <p>
+                        Our vision is to become the foremost private technical institution in Africa and beyond that
+                         provides competency based training in all technical disciplines particularly in trade areas
+                         by creating a hub where talents could be identified, shaped and developed for the benefit
+                         of the society.
+                    </p>
+
+                    <h3 id="mission">MISSION</h3>
+                    <p>
+                        To equip passion driven and determined students with the requisite knowledge, skills and attitudes
+                         necessary to be relevant, competent and competitive professionals in their chosen career paths.
+                    </p>
+
+                    <h3 id="objective">OBJECTIVE</h3>
+                    <p>
+                        We do this through proximal learning where industry is brought closer to the learner, coupled with
+                         tuition based on sound academic standards and industrial practice with hands on experience using
+                         State-of-The-Art equipment, and facilitated by well-qualified faculty with focus on mastery and
+                         measured outcomes.
+                    </p>
+
+                    <h3 id="dream">OUR DREAM</h3>
+                    <p>
+                        The Dream is to turn GH Media school into a full-fledge Media and a Technical University with five 
+                        (5) major schools which would include: 
+                        <ol>
+                            <li>GH Media School</li>
+                            <li>GH Cosmetology School </li>
+                            <li>GH Fashion School</li>
+                            <li>GH Catering School</li>
+                            <li>GH Technology School</li>
+                        </ol>
+                    </p>
+
+                    <h3 id="values">OUR VALUES</h3>
+                    <p>
+                        Our mission informs everything we do at GHTUC, but we also have a set of values broadly categorized 
+                        into 3P’s. Passionate, Professionalism and Progressiveness.
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary><b>Passionate</b></summary>
+                                    <p>We are passionate about what we do and love what we do as facilitators.</p>
+                                    <ul>
+                                        <li>Commitment – we believe in what we do so we are loyal, we are creative, curious and 
+                                            deeply committed to the pursuit, impartation and sharing of knowledge.</li>
+                                        <li>Dedicated – we are dedicated to our stakeholders especially industry and our students, 
+                                            actively developing skills, knowledge and attitude of our students to be useful to the 
+                                            media, communications and the creative arts industry.</li>
+                                        <li>Ambitious – adventurous and confident in our practice, courageous to accept the balance
+                                             of risk of failure and reward in pursuit of progress.</li>
+                                    </ul>
+                                </details>
+                            </li>
+
+                            <li>
+                                <details>
+                                    <summary><b>Professionalism</b></summary>
+                                    <ul>
+                                        <li>Excellence – we take pride in what we do. We take responsibility and ownership of all 
+                                            actions and outcomes and strive to adhere to quality and accuracy.</li>
+                                        <li>Diversity – respectfully curious about individual learners needs, embracing difference 
+                                            in our stakeholders.</li>
+                                        <li>Integrity – we deliver what we promise</li>
+                                        <li>Transparency – building trust by being transparent, open and honest in our facilitation, 
+                                            processes, delivery and outcomes.</li>
+                                    </ul>
+                                </details>
+                            </li>
+
+                            <li>
+                                <details>
+                                    <summary><b>Progressiveness</b></summary>
+                                    <ul>
+                                        <li>Discovery – we unearth talent through discovery, develop professional skills through curiosity, 
+                                            creativity and willingness to learn, generating new ideas and finding new ways of doing things.</li>
+                                        <li>Optimistic – we say it is possible. We see possibility of learning with anyone’s potential, 
+                                            talent and committed to learning regardless of the persons background, belief etc…</li>
+                                        <li>Co–operation – collaborating</li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                    </p>
+
+                    <h3 id="strategy">THE STRATEGY</h3>
+                    <p>
+                        The plan is to transform lives and give our students hope through hands-on  technical and vocational education 
+                        to make them better people with employable skill set and also cause them to be competent, relevant and competitive 
+                        in the market place.
+                    </p>
+                    <p>
+                        The strategy is about tapping or unearthing hidden potentials, giving people support through facilitation, developing 
+                        them to be resourceful, dynamic and giving them the enabling environment and adequate infrastructure to gain the 
+                        needed skills, knowledge and above all, the attitude to perform and deliver.
+                    </p>
+
+                    <h3 id="qa">QUALITY ASSURANCE</h3>
+                    <p>
+                        Our learning environment demonstrates that quality is happening; quality facilities & equipment’s that meets industrial 
+                        standards are used in training facilitation. Quality assurance mechanisms like standard industrial practice, constant 
+                        technological changes, new industrial trends are considered during designing and development of our programs during the 
+                        facilitation, assessment methods and procedures, verification etc. to establish confidence among all the stakeholders 
+                        (learners, institution and industry).
+                    </p>
+
+                    <h3 id="qa">PILLARS OF ENGAGEMENT</h3>
+                    <p>
+                        <ul>
+                            <li>COMPETENCY BASED TRAINING (skills, knowledge & attitude)</li>
+                            <li>OCCUPATIONAL STANDARD GENERATION (industry led standards</li>
+                            <li>LEARNER CENTERED APPROACHES (a shift of emphasis  from instructing to facilitation)</li>
+                            <li>OUTCOME BASED PARADIGM (all learners can learn and become successful)</li>
+                            <li>TRANSPARENT ASSESSMENT REGIME (panel based assessment)</li>
+                            <li>INTERNAL VERIFICATION SYSTEMS (ensure that internal assessment are practical, reliable and valid)</li>
+                            <li>ENHANCE ZONE OF PROXIMAL LEARNING (activity must be within the reach of learner)</li>
+                        </ul>
+                    </p>
+
+                    <h3 id="module-design">PRINCIPLES OF MODULE DESIGN</h3>
+                    <p>
+                        <ul>
+                            <li>Clarity of Focus – learners would be able to focus on what makes them successful</li>
+                            <li>Designing back – Limiting unwanted learning</li>
+                            <li>High expectations – challenging the learner</li>
+                            <li>Expand opportunities – increases possibilities</li>
+                            <li>Reducing zone of proximal learning – bringing activity close to the learner</li>
+                        </ul>
+                    </p>
+
+                    <h3 id="quality-management">QUALITY MANAGEMENT POLICY</h3>
+                    <p>
+                        <ul>
+                            <li>To be committed to excellence in education, equality of educational opportunity, and 
+                                the recognition of each student’s individuality. Inasmuch as students differ in their 
+                                rate of physical, mental, emotional and social growth and vary in their needs and 
+                                abilities, learning opportunities are provided that are consistent with personal development 
+                                and potential.</li>
+                            <li>To emphasize diagnostic and prescriptive instruction, allowing an individual approach to 
+                                each student’s learning style and educational needs. The educational program introduces 
+                                each student to a variety of interest and subject areas that offer exposure to the range 
+                                of opportunities available in industry. These experiences produce the basis for further 
+                                education and future employment.</li>
+                            <li>To assist students to assume more responsibility for the decisions regarding their education.</li>
+                            <li>To create a school environment that is responsive and conducive for learning. The physical 
+                                environment facilitates and enhances the learning experiences available to each student. A 
+                                responsive environment includes competent and dedicated teachers using a variety of techniques 
+                                and a classroom atmosphere where students can function and develop according to their abilities. 
+                                Safety, physical comfort, and appearance also are vital environmental components.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="rows page-section">
+            <div id="philosophy" class="container-element">
+                <h3 class="container-heading">THE PHILOSOPHY</h3>
+                <div class="container-content">
+                    <p>We do this through proximal learning where industry is brought closer to the learner, coupled with tuition 
+                        based on sound academic standards and industrial practice with hands on experience using state-of-the Art 
+                        equipment, and facilitated by well qualified faculty with focus on mastery and measured outcomes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rows page-section section-bg">
+            <div id="administration" class="container-element">
+                <h3 class="container-heading">ADMINISTRATION</h3>
+                <div class="container-content">
+                    <h3 id="management-board">THE MANAGEMENT BOARD</h3>
+                    <p>The management board is an adhoc board whose professional membership is drawn from the pool of the HOD’s. 
+                        This board is a key decision-making entity within the schools that had meetings sometimes, bi-weekly on 
+                        issues that border on the day to day affairs of the schools and intermittently deliberate on pragmatic 
+                        consultative decisions upon the furnishing of major progressive and other informal reports from the Head 
+                        of Departments, the board peruses those details with dispatch, which are feasible for discussions, 
+                        brainstorming a critique and finally making their findings, recommendations and conclusions a working reality 
+                        for the upgrade of the school.
+                    </p>
+                    <p>
+                        One uncontestable fact about GH Schools Management Board is, they institute calculated inquisitions into every 
+                        facilitator’s stewardship, and this puts all of them on their toes.
+                    </p>
+                    <p>
+                        The school shall be managed by a School Management Board chaired by the Rector on behalf of the Chancellor. 
+                        The board shall be represented by all sectors of the institution. It shall consist of;
+                    </p>
+                    <ol>
+                        <li>The Chancellor (Ceremonial)</li>
+                        <li>The Rector (Administrative)</li>
+                        <li>The Deputy Rectors</li>
+                        <li>Heads of Schools</li>
+                        <li>Director of Administration (Registrar)</li>
+                        <li>Director of Students Affairs (Dean)</li>
+                        <li>Director of Finance</li>
+                        <li>Director of Academics</li>
+                        <li>Director of Productions</li>
+                        <li>Director of Marketing</li>
+                        <li>Director of Legal Affairs</li>
+                        <li>Director of Communications</li>
+                        <li>Director of Human Resource</li>
+                        <li>Director of Estates & Properties</li>
+                    </ol>
+
+                    <h3 id="head-of-school">Head Of Schools</h3>
+                    <p>The head of the school is appointed by the Rector in consultation with management board and he or she is formally 
+                        accountable to the Rector and the management board. The head of school is responsible for the effective general 
+                        management of the school, its departments, faculty and students, ensuring the provision of academic leadership 
+                        and strategic vision. He/she is responsible for the quality of student’s experience in the school. He/she oversees 
+                        the planning and development of strategies for the school, engaging heads of department, faculty and students, 
+                        ensuring quality teaching and facilitation, reviewing performance of the entire school in terms of its objectives 
+                        as stated in the strategic plan and managing and monitoring of the school.</p>
+
+                    <p>He/she is also responsible for the appointment of HOD and faculty, allocating duties, approving activities and 
+                        schedules of the school, creating a supportive working environment for staff and students, and ensuring general 
+                        discipline in the school.</p>
+                    
+                    <p>The head of the school is to promote excellence and improvement in all matters of teaching, learning, projects, 
+                        practicals and general administration. They supervise examinations (assessments) marking, grading and publication 
+                        of results, and also develop and maintain quality assurance processes.</p>
+
+                    <p>Other responsibilities include, representing the school on general committees, management and vice versa, ensuring 
+                        safety and security within the school, implementing decision of management board within the schools, coordination 
+                        of departmental projects, budgeting, procurement, allocation of resources and any other duties as may be assigned 
+                        by the rector</p>
+
+                    <h3 id="registrar">The Registrar</h3>
+                    <p>The Registrar is the head of the school’s administration and he is the Director of Administration of GH Schools, who 
+                        is responsible for the day to day running of the school on behalf of the Rector and for management. He also serves 
+                        as the secretary to the College’s governing council, academic board and all boards and standing committees. His main 
+                        role is to perform senior administrative and managerial roles on behalf of the college’s management and the Rectorate.</p>
+                
+                    <p>The institution is governed and run on the basis of policy decisions made by the various statutory bodies i.e. University 
+                        council and management board, within the framework of the statutes. The Registrar does not determine policies, but once 
+                        policy decisions have been taken by these bodies, it is his or her duty to ensure that they are implemented and supervised 
+                        to achieve the stated aim. He/she ensures that all committees, officers, members, staff and students are aware of relevant 
+                        regulations policy guidelines on issues that may arise.</p>
+
+                    <h3 id="students-affairs-directorate">Students Affairs Directorate</h3>
+                    <p>The office of the Dean of Students serves a central role in the student learning, student life, students experience and 
+                        student development at GHTUC, the directorate provides Student Support Services (SSS) to students, from their time of 
+                        enrollment, orientation, matriculation, residential life, graduation etc, immediately students are admitted by the registry, 
+                        the directorate supervises the general orientation of the students and the formal induction of student into the institution 
+                        (Matriculation) and also responsible for the entire stay of students on campus, attachment and placement, graduation, career 
+                        guidance services and alumni coordination.</p>
+
+                    <p>The directorate creates opportunities for students to explore their talents and potentials in a conducive learning environment, 
+                        it also provides critical support structure for enriching the overall student experience on campus. It also promotes an environment 
+                        that encourages intellectual exchange and individual expression through mentoring, counseling, exchange programs, chaplaincy 
+                        services through chaplaincy board, granting student permissions, ensuring orderly organization of student’s activities and other 
+                        extracurricular activities.</p>
+
+                    <p>The director of student affairs (Dean of Students) advices the Rector on all student related issues, he supervises all student 
+                        related activities and directly oversees all SRC activities, clubs and societies, student welfare, student concerns and other 
+                        student related functions.</p>
+
+                    <p>The dean of students represents student’s concern and interest on management board and works closely with the student council 
+                        to articulate students’ needs to administration and also represent managements interest on students functions, programs, 
+                        activities and committees.</p>
+
+                    <h3 id="finance-directorate">Finance Directorate</h3>
+                    <p>The finance directorate is responsible for the university’s financial health. The directorate combines operational and strategic roles, 
+                        manages accounting and financial strategy for the profitability, sustenance and growth of the institution. He generally ascertains 
+                        the cost of student training and develop strategies to collect fees (mobilize funds).  He sees to the disbursement of the fund and 
+                        payment of all expense, ensures effective controls and development of best practices, supervises all procurement and purchase, 
+                        minimize bad debt and ensures profitability of the institution.</p>
+
+                    <p>The directorate is headed by the director of finance who is the chief adviser to the rector and management on financial issues. He is 
+                        responsible for the implementation of financial policies, budgeting, managing risk, reporting on revenue, disbursing of funds to 
+                        departments, allocation of financial resources, training account staff and overseeing all financial activities of the institution. He 
+                        is to oversee internal controls, setting of financial targets, engaging with financial investors, developing financial strategies, 
+                        monitoring expenditure and cash flow, evaluating investments, paying of salaries and enhancing investor confidence which typically 
+                        includes planning, organizing, strategizing, auditing, accounting for and controlling of the institution’s finances. He also ensures 
+                        that the institution’s financial systems are robust and meets all regulatory requirement of all statutory bodies.</p>
+    
+                    <h3 id="academic-affairs-directorate">Academic Affairs Directorate</h3>
+                    <p>This directorate is responsible for the planning, developing, organizing, directing, executing and evaluating broad academic 
+                        programs, policies, procedures and guide lines for the institution. It is also involved in the provision of overall leadership, 
+                        direction and control in all academic areas which includes, curriculum development, curriculum delivery, curriculum monitoring 
+                        and evaluating, student assessment and grading etc.</p>
+
+                    <p>The directorate also reviews academic programs and implementation of board’s policies and procedures relating to academics. The 
+                        directorate mainly determines the means, methods and resources necessary to achieve academic goals and objectives.</p>
+
+                    <p>The overseeing of faculty appointments, promotion, training, recommendation, allocation, supervision, coordinating, monitoring, 
+                        evaluation, wellbeing, etc. are also the responsibility of the directorate. The head of directorate serves as the chief academic 
+                        advisor to the Rector on all academic issues and also plans and coordinate schedules, schemes of works etc. needed for the smooth 
+                        execution of academic policies.</p>
+
+                    <p>Finally, he also recommends budget proposals and allocation and re-allocation of funds, resources concerning academic. He designs 
+                        strategies out of the academic policies and supervises the tactics to execute these academic policies through the heads of 
+                        departments and their faculty members of the various departments.</p>
+
+                    <h3 id="student-prod-directorate">Students Production Directorate</h3>
+                    <p>The directorate of student production is responsible for the planning, coordinating and supervising all student production. This 
+                        involves the acquisition of the necessary resources and equipment required for student production and maintain these equipment, 
+                        allocating these equipment and resources and constantly monitoring and supervising these productions.</p>
+
+                    <p>The directorate also takes change of all studio and workshops for production, these includes the TV Studio, Gallery (MCR), Radio 
+                        Studios, Editing Suit, Lighting Room, Sound Studio etc.</p>
+
+                    <p>Student productions are very vital to our practical training and the head of the directorate is responsible for developing broad 
+                        policies to manage the directorate and also generate operational and tactical strategies, produces and guideline out of the broad 
+                        policies of management, for the achievement of the overall universities vision.</p>
+
+                    <p>The directorate of student productions plans, organizes and coordinate production schedules, oversees the production of student 
+                        projects and also responsible for the production of all the schools productions. It also ensures that health and safety regulations 
+                        are met in all the various studio and other production areas.</p>
+
+                    <h3 id="marketing-directorate">Marketing Directorate</h3>
+                    <p>The marketing directorate is the custodian and promoter of the brand. The directorate plays a vital role in also promoting the brand’s 
+                        mission and vision and projecting its virtues. The directorate is responsible for communicating the brand promise and ensuring that the 
+                        brand’s experience commensurate the brand value. The directorate is responsible for coordinating and producing all marketing materials 
+                        and communication that represents the institution. It is mainly responsible for examining proposals, sponsorships and advice management 
+                        on marketing related activities. This outfit is to reach out to prospective students, investors and/or the community while creating an 
+                        overarching image that represents the institution in a positive light.</p>
+
+                    <p>The directorate is headed by a director who is responsible for the development of strategies and tactics out of the broad management policies 
+                        that will serve the mission and vision of the institution. He is responsible for defining and managing the brand, conducting campaigns and 
+                        initiating marketing activities that will promote and project the brand. He is responsible for all marketing communications and other promotional 
+                        and publicity materials, He is also responsible for understanding target market and develop suitable strategies to serve the market. Also, he 
+                        monitors competition and competitor reaction. that serves as media liaison and overseeing all external stakeholders. He is responsible for internal 
+                        communication and visibility. He is also responsible for managing and monitoring all media communications on television, radio, print and also 
+                        social media platforms. </p>
+
+                    <p>Lastly, he is responsible for conducting customer and marketing research and advice the rector and its management on marketing and brand related 
+                        issues. He is directly responsible for the school’s portal, websites, magazines, newsletters, exhibitions, seminars and events.</p>
+                    
+                    <h3 id="communication-directorate">Communication Directorate</h3>
+                    <p>The communication directorate is responsible for the creation, managing, directing and supervising the institution's internal and external 
+                        communications. The directorate coordinates and supervises the communication and PR staff, creating broad communication plan, mapping communication 
+                        strategies and implementing these strategies to ensure cordiality between the school and its internal and external stakeholders.</p>
+
+                    <p>The communication directorate is responsible for building and maintaining the institutions corporate image and relationship with key stakeholders. Its
+                        duty cuts across Public Relations, Media Relations, International Relations, Community Relations, etc. The directorate manages the overall brand image 
+                        and reputation of the institution by crating and managing press releases, press conferences, marketing and promotional materials and complain, develop 
+                        publications, newsletters, online portal etc.</p>
+
+                    <p>The directorate is headed by a director whose main duty is to present the institution to the public, media, staff, students, the community and other 
+                        stakeholders in the best light possible, using writing, photography, videography, presentations and other media related skills.  The director also serves 
+                        as the public relations officer of the institution, in other words, he is the spokesperson and the media liaison of the institution.</p>
+                    
+                    <h3 id="human-resource-directorate">Human Resource Directorate</h3>
+                    <p>The Human resource directorate is responsible for the for the strategic management and development of the institutions human capital.</p>
+                    <p>The estate department is in charge of the upkeep of the entire institution. They oversee property management in terms of researching and planning what 
+                        property of facility is needed, processing and assisting its purchase and acquisition, monitoring and supervising the usage of the property/facility, 
+                        working out or carrying regular maintenance of the facility and ensuring that they are always in good condition.</p>
+
+                    <p>The directorate is in charge of all work spaces and learning areas including the offices, lecture theatre, classrooms, studio, workshops, hostel, compound 
+                        and its surroundings. They control properties like studio equipment, office equipment, office furniture, tools, machinery etc.</p>
+
+                    <p>The estate manager is responsible for the facility acquisition and purchase of asset, creating an inventory of asset, planning the effective scheduling of 
+                        asset usage, planning and execute routine maintenance of the assets, monitoring assert usage and supervising assets storage for future use.</p>
+
+                    <p>He is directly responsible for screening and overseeing outside vendors, contractors, construction projects, maintenance of grounds, scheduling of staff and 
+                        student events, lecture hall preparation, routine maintenance, sanitation, safety.</p>
+
+                    <p>He is responsible for creating a conducive environment for staff and students and make all properties and facilities accessible to staff and students for the 
+                        smooth running of the institution. He advises the rector on safety, security, property related issues for policy formation.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rows page-section">
+            <div id="chancellor-office" class="container-element">
+                <h3 class="container-heading">Office of the Chancellor</h3>
+                <div class="container-content">
+                    <h3 id="chancellor">CHANCELLOR</h3>
+                    <p>The Chancellery is not only a ceremonial arrow-head, but an office of dignified records of accomplishments. This Office (headed by a captain of industry and a 
+                        celebrated man of God), is a prominent pivotal body that has an extensive oversight responsibility on the entire administrative agenda and structure. As the Chair 
+                        to initiate students into the practical world, it occasionally relays advisory initiatives which trickle down for onward and outward implementation.</p>
+
+                    <p>In order not to depart from the practice-directives of our rules of engagements; the chancellery comes in handy to streamline, the roles of the other echelons at 
+                        the helm of affairs at all times, it mediates and plays the advisory role.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rows page-section section-bg">
+            <div id="rector-office" class="container-element">
+                <h3 class="container-heading">Office Of The Rector</h3>
+                <div class="container-content">
+                    <h3 id="rectorate">THE RECTORATE</h3>
+                    <p>The Rectorate is the official arbiter and the nerve-centre of the day to day running of the school. Its role, is duly multi-faceted; from planning to organizing, 
+                        directing, communicating, coordinating, controlling, motivating and staffing amongst others.</p>
+
+                    <p>The Rectorates arms is into three-fold; - The Tripartite Pyramid of the Chief Rector, and his two deputies; one in charge of Academics and the other deputy Rector 
+                        in charge of Monitoring and Supervision, also with an added responsibility of head of Media and Cosmetology schools respectively. Their Job descriptions are broad, 
+                        just to solve a plethora of administrative creeping concerns. The Rectorate draws its powers from the chancellor, thus reporting to University Council, chaired by 
+                        the Chancellor. The rectorate manages the management board and charged with planning all activities of the institution which involves the day-to-day running of 
+                        the institution. Admittedly, the chief Rector, even though in a high profile capacity, yet coordinates in cautions optimism the entire managerial functions of the 
+                        HOD’s and their deputies assigned roles.</p>
+
+                    <!-- <p></p> -->
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="rows center float-button">
+            <i class="icofont-caret-up"></i>
+            <span class="hide-on-mobile" style="margin-left: 0.5rem; font-size: 1.4rem;">Scroll to top</span>
+        </a>
+
+        <div class="cols-reverse sticky-chat-action" style="position: fixed;">
+            <span style="display: flex; flex-direction: column; align-items: center;">
+                <button onclick="(function(ev){window.location.href = 'https://wa.me/+233204622250'}())">
+                    <i class="icofont-brand-whatsapp"></i>
+                </button>
+                WhatsApp Us
+            </span>
+            <style>
+
+                .sticky-chat-action{
+                    right: 14vmin; bottom: 16rem;
+                }
+
+                .sticky-chat-action button{
+                    padding: 1rem;
+                    background-color: orange;
+                    background-image: radial-gradient(#ff1d1d 50%, #cc0000);
+                    color: white;
+                    border-radius: 50%;
+                    border: none;
+                    width: 6rem;
+                    height: 6rem;
+                    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+                    transition: all 0.3s ease;
+                    outline: none;
+                    font-size: 1.5rem;
+                    margin-top: 0.5rem;
+                }
+
+                .sticky-chat-action button i{
+                    font-size: 2.3rem;
+                }
+
+                .sticky-chat-action > button{
+                    margin-top: 0.8rem;
+                }
+
+                .sticky-chat-action > button.open{
+                    transform: scale(1.1);
+                    background-image: none;
+                    background-color: orange;
+                }
+
+                .sticky-chat-action .chat-actions{
+                    height: 0;
+                    transition: all 0.3s ease;
+                }
+
+                .sticky-chat-action .chat-actions.open{
+                    height: 130px;
+                }
+
+                @media only screen and (max-width:800px){
+                    .sticky-chat-action{
+                        right: 3.5rem;
+                        bottom: 8rem;
+                    }
+                }
+            </style>
+
+            <script>
+                document.querySelectorAll(".sticky-chat-action > button").forEach(actionButton => {
+                    actionButton.addEventListener("click", function(ev){
+                        ev.currentTarget.classList.toggle("open");
+                        document.querySelectorAll(".sticky-chat-action .chat-actions").forEach(btns => {
+                            btns.classList.toggle("open");
+                        });
+                        
+                        if (ev.currentTarget.classList.contains("open")) {
+                            ev.currentTarget.innerHTML = "<i class='icofont-close'></i>";
+                        }else{
+                            ev.currentTarget.innerHTML = "<i class='icofont-ui-chat'></i>";
+                        }
+                    });
+                })
+            </script>
+        </div>
+    </main>
+
+    <footer class="cols">
+        <div class="top rows">
+            <a href="/" class="footer-logo"><img src="../GH Schools.png" alt="" class="footer-logo"></a>
+            <div class="cols">
+                <strong>Social Media</strong>
+                <span class="social-label">GH Media Social Media</span>
+                <div class="rows social-icons">
+                    <a href="https://www.facebook.com/ghmediasch/" target="blank" class="icon"><i class="icofont-facebook"></i></a>
+                    <a href="https://twitter.com/ghmediaschool" target="blank" class="icon"><i class="icofont-twitter"></i></a>
+                    <a href="https://www.instagram.com/ghmediaschool/" target="blank" class="icon"><i class="icofont-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCuRGvNkzD0Wr2Hem8DitZvw" target="blank" class="icon"><i class="icofont-youtube"></i></a>
+                </div>
+
+                <span style="margin-top: 0.4rem;" class="social-label">GH Schools Social Media</span>
+                <div class="rows social-icons">
+                    <a href="#" target="blank" class="icon"><i class="icofont-facebook"></i></a>
+                    <a href="https://twitter.com/gh_schools" target="blank" class="icon"><i class="icofont-twitter"></i></a>
+                    <a href="https://www.instagram.com/gh_schools/" target="blank" class="icon"><i class="icofont-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCd_EDOYO2-BWy7fNJepuXCQ/featured" target="blank" class="icon"><i class="icofont-youtube"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <strong>Info</strong>
+                <ul>
+                    <li><a href="https://admissions.ghschools.online/rules_and_regulation">Rules And Regulations</a></li>
+                    <li><a href="https://www.ghcosmetology.com">GH COSMETOLOGY SCHOOL</a></li>
+                    <li><a href="https://www.ghfashionschool.com">GH FASHION SCHOOL</a></li>
+                </ul>
+            </div>
+
+            <div class="cols">
+                <strong>Contact Us</strong>
+                <span>Achimota Accra near Achimota New Transport Terminal and Adjacent the Achimota ICGC</span>
+                <span class="rows" style="align-items: center;">Phone: <a href="tel:+233302424909">+233 30 242 4909</a> (landline)</span>
+                <span class="rows" style="align-items: center;">Alt. 1: <a href="tel:+233204622250">+233 20 462 2250</a></span>
+                <span class="rows" style="align-items: center;">Alt. 2: <a href="tel:+233277622250">+233 27 762 2250</a></span>
+                <span class="rows" style="align-items: center;">Alt. 3: <a href="tel:+233544622250">+233 54 462 2250</a></span>
+                <span class="rows" style="align-items: center;">Email: <a href="mailto:admissions@ghschools.online">admissions@ghschools.online</a></span>
+                <span class="rows" style="align-items: center;">Sign Up To Our<a href="/contact">Newsletter</a></span>
+            </div>
+        </div>
+        <div class="bottom cols">
+            <span>GH Schools <span id="footyear">2020</span>, all rights reserved</span>
+            <span class="rows" style="align-items: center;">Powered by<a href="https://learnira.org" target="blank">Learnira</a></span>
+        </div>
+    </footer>
+</body>
+</html>

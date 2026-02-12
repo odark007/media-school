@@ -1,0 +1,304 @@
+/* For both PC and Mobile */ 
+body{
+    background-color: var(--page-bgcolor-v2);
+}
+
+header{
+    margin-bottom: 0 !important;
+}
+
+header .header-slider .slide{
+    font-size: 1.2rem;
+    padding: 8rem 2rem 1rem 8rem;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../assets/images/awards/GMS_8416.jpg");
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header .header-slider .slide h2{
+    position: relative;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 3.1rem;
+    font-size: calc(1.2rem + 3vmin);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+header .header-slider .slide h2::after{
+    content: '';
+    position: absolute;
+    width: 6%;
+    height: 0;
+    border-radius: 5px;
+    left: 0;
+    top: 4rem;
+    top: 5.9vmin;
+}
+
+header .header-slider .slide h2 + *{
+    opacity: 0;
+    margin-top: 0;
+    /* color: #ffff90; */
+    color: #2dff8c;
+    transition: opacity 0.3s ease 0.5s;
+}
+
+header .header-slider .slide > *{
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+main .page-section{
+    padding: 1rem;
+    background-color: var(--page-bgcolor-v3);
+}
+
+main .page-section .container-heading{
+    position: relative;
+    padding: 0;
+    color: var(--bright-text-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 1.8rem;
+    text-align: left;
+}
+
+main .page-section.section-bg{
+    margin: 0;
+    background-color: var(--page-bgcolor-v1);
+}
+
+main .page-section.section-one{
+    margin: 0;
+    background-color: black;
+}
+
+main .page-section .container-element{
+    padding: 4rem;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+main .page-section details{
+    margin-top: 1rem;
+}
+
+main .page-section details summary{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+main .page-section .container-element *.section-head{
+    background-color: rgb(75, 45, 0);
+    color: white;
+    padding: 1.4rem 2rem;
+    /* padding-left: 1.5rem; */
+    text-transform: uppercase;
+    /* border-radius: 8px 0 8px 0; */
+}
+
+main .page-section .container-button{
+    background-color: var(--main-color-code);
+    color: var(--bright-text-color);
+    padding: 1.3rem 1rem;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 0;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+main .page-section .awards-container {
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+main .page-section .awards-wrapper{
+    margin: 1rem;
+    overflow: hidden;
+    border: 1px solid #111;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 2rem);
+    transition: all 0.25s linear;
+    justify-content: space-between;
+}
+
+main .page-section .awards-wrapper:hover{
+    border: 1px solid #222;
+}
+
+main .page-section .awards-wrapper .awards-cap{
+    background-color: #202020;
+    font-size: 1.50rem;
+    font-size: calc(1.4rem + 0.14vw);
+    padding-right: 2rem;
+    height: 100%;
+}
+
+main .page-section .awards-wrapper .awards-cap > *:last-child{
+    justify-content: center;
+    color: #aaa;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-style: italic;
+    padding-left: 3rem;
+    line-height: 1.8;
+}
+
+main .page-section .awards-wrapper .awards-caption{
+    background-color: #101010;
+    padding: 1.5rem 2rem;
+    font-size: 1.50rem;
+    font-size: calc(1.4rem + 0.14vw);
+    color: #aaa;
+    border-radius: 0;
+    font-style: italic;
+}
+
+main .page-section .awards-wrapper .awards-preview{
+    width: 15rem;
+    height: 15rem;
+    min-width: 15rem;
+    min-height: 15rem;
+    background-color: black;
+    background-image: linear-gradient(135deg, rgba(0, 255, 234, 0.1), rgba(0, 0, 0, 0.35));
+    color: rgb(255, 174, 0);
+    font-size: 3rem;
+    border-radius: 8px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.25);
+}
+
+main .page-section .awards-wrapper .awards-preview i{
+    transform: rotateZ(35deg);
+}
+
+
+
+main .page-section .container-content{
+    font-size: 1.50rem;
+    font-size: calc(1.4rem + 0.16vw);
+    line-height: 1.5 !important;
+    color: #aaa;
+}
+
+main .page-section .container-content h3{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    margin-top: 2rem;
+    border-bottom: 1px dashed #aaa;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content h3:first-child{
+    margin-top: 0;
+}
+
+footer{
+    margin-top: 1rem !important;
+    background-color: var(--page-bgcolor-v0);
+}
+
+/* For Mobile Users Only */
+@media only screen and (max-width:800px){
+    header .header-slider .slide{
+        background-position: center !important;
+        padding: 6rem 2rem 1rem 5rem;
+    }
+
+    header .header-slider .slide h2{
+        line-height: 1.5 !important;
+        font-size: 2.1rem;
+        font-size: 4vmin;
+    }
+
+    header .header-slider .slide h2::after{
+        border: none;
+    }
+
+    main .page-section.section-one{
+        flex-wrap: wrap;
+        justify-content: center;
+        background-size: 100%;
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* background-color: red; */
+    }
+
+    main .page-section .container-button{
+        background-color: var(--highlight-color-code);
+        color: var(--dark-text-color);
+        margin-right: 0;
+    }
+    
+    main .page-section.section-one .container-element{
+        margin: 0rem 1.5rem 4rem;
+        width: calc(100% - 3rem);
+        min-height: 300px;
+        padding: 4rem;
+        border-radius: 0;
+        position: relative;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(57, 5, 1, 0.8), rgba(57, 5, 1, 0.8)), url("./assets/images/pexels-kaique-rocha-65438.jpg");
+    }
+
+    main .page-section.section-one .container-element:last-child{
+        margin-bottom: 1rem;
+    }
+
+
+    main .page-section.section-one .container-content{
+        font-size: 1.15rem;
+    }
+
+    main .page-section .awards-wrapper .awards-preview{
+        width: 15rem;
+        min-width: 15rem;
+        min-height: 15rem;
+    }
+
+    main .page-section .awards-container .awards-wrapper{
+        margin: 1rem 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    main .page-section{
+        padding: 0;
+    }
+
+    main .page-section .awards-wrapper .awards-cap{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    main .page-section .awards-wrapper .awards-cap > *:last-child{
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 7vw;
+        padding-left: 7vw;
+    }
+
+    main .page-section .awards-wrapper .awards-preview{
+        width: 100%;
+        height: 18rem;
+    }
+}

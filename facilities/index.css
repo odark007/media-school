@@ -1,0 +1,234 @@
+/* For both PC and Mobile */ 
+body{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("./assets/images/pexels-susana-angel-román-1272887.jpg"); */
+    background-color: var(--page-bgcolor-v1);
+}
+
+main .page-section{
+    position: relative;
+    padding: 1rem;
+}
+
+main .page-section .container-heading{
+    position: relative;
+    padding: 0;
+    color: var(--bright-text-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 1.8rem;
+    text-align: left;
+}
+
+main .page-section .right-tools{
+    width: 35%;
+    align-items: center;
+}
+
+main .page-section .container-element{
+    padding: 2rem 3rem;
+    width: 100%;
+}
+
+main .page-section .container-element > *:first-child{
+    align-items: center;
+
+    padding: 0.6rem 0;
+}
+
+main .page-section .container-element .intro{
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem;
+    font-weight: 300;
+}
+
+main .page-section .container-button{
+    background-color: var(--main-color-code);
+    color: var(--bright-text-color);
+    padding: 1.3rem 1rem;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 0;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content{
+    font-size: 1.20rem;
+    font-size: calc(1rem + 0.18vw);
+    line-height: 1.5 !important;
+    color: #bbb;
+}
+
+main .page-section .facilities-container{
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+main .page-section .facilities-container .facil-wrapper{
+    margin: 1rem;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+    width: calc(33.33% - 2rem);
+    min-width: 15rem;
+    transition: all 0.3s linear;    
+}
+
+main .page-section .facilities-container .facil-wrapper:hover{
+    background-color: rgba(0, 128, 58, 0.05);
+    /* border-color: #00803a; */
+    cursor: pointer;
+}
+
+
+main .page-section .facilities-container img.facility-img{
+    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    height: 18vw;
+    min-height: 13rem;
+    /* margin-top: 1rem; */
+    /* background-color: #111; */
+}
+
+main .page-section .facilities-container figcaption{
+    font-size: calc(1.2rem + 0.16vw);
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    width: 100%;
+    color: #eee;
+}
+
+main .page-section .facilities-container .dummy .caption{
+    padding: 0.55rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+
+main .page-section .production-info-container{
+    margin-left: 2rem;
+    margin-right: -30vw;
+    right: -100%;
+    border: 1px solid var(--page-bgcolor-v3);
+    width: 30vw;
+    min-width: 350px;
+    background-color: var(--page-bgcolor-v3);
+    transition: all 0.3s ease;
+}
+
+main .production-info-container img{
+    width: 100%;
+    object-fit: contain;
+    background-color: var(--page-bgcolor-v2);
+    height: 250px;
+}
+
+main .production-info-container img + div{
+    padding: 0 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+main .production-info-container #close-pic{
+    align-items: center;
+    color: var(--main-color-code);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+main .production-info-container h3{
+    padding: 2px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+main .production-info-container .production-date{
+    color: var(--secondary-color-code);
+    opacity: 0.9;
+    
+}
+
+footer{
+    margin: 0;
+    background-color: var(--page-bgcolor-v0);
+}
+
+/* For Mobile Users Only */
+@media only screen and (max-width:800px){
+    main .page-section .container-element{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    main .page-section .right-tools{
+        width: 90%;
+    }
+
+    main .page-section .search-bar-wrap{
+        border: 1px solid var(--page-bgcolor-v4);
+        color: white;
+    }
+
+    main .page-section .container-element .intro{
+        font-size: 1.2rem;
+    }
+
+    main .page-section .container-element > *:first-child{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    main .page-section .container-heading::after{
+        width: 2.5rem;
+    }
+
+    main .page-section .container-button{
+        background-color: var(--highlight-color-code);
+        color: var(--dark-text-color);
+        margin-right: 0;
+    }
+
+    main .page-section .facilities-container .facil-wrapper{
+        margin: 0.5rem;
+        width: calc(50% - 1rem);
+        min-width: 12rem;
+    }
+
+    main .page-section .facilities-container img.facility-img{
+        height: 13rem;
+        min-height: 10rem;
+    }
+
+    main .page-section .production-info-container{
+        position: fixed;
+        top: 0;
+        padding: 0.5rem;
+        right: -100%;
+        margin-left: 0;
+        margin-right: -30vw;
+        border-left: 1px solid #101010;
+        width: 100vw;
+        height: 100vh;
+        min-width: 300px;
+        background-color: #1b1b1b;
+    }
+}
+
+@media only screen and (max-width:400px){
+    main .page-section .facilities-container .facil-wrapper{
+        width: 100%;
+    }
+}

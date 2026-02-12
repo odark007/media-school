@@ -1,0 +1,47 @@
+main h1{
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    font-size: calc(1.6rem + 0.9vw);
+    margin-right: 2rem;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+main .page-section .container-content h3{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    margin-top: 2rem;
+    border-bottom: 1px dashed #aaa;
+    display: inline-block;
+    padding-bottom: 1px;
+    text-transform: uppercase;
+}
+
+main .page-section .container-content p, main .page-section .container-content li{
+    font-size: 1.50rem;
+    font-size: calc(1.4rem + 0.18vw);
+    line-height: 1.5 !important;
+    color: #bbb;
+}
+
+main .page-section .container-content li{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width:800px){
+}
+
+@media only screen and (max-width:500px){
+    main{
+        flex-direction: column !important;
+    }
+
+    main h1{
+        font-size: 2rem;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
