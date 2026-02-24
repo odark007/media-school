@@ -6,14 +6,14 @@ let productions = [
         id: "prod1",
         createdAt: Date.now(),
         name: "Rising from Bukom",
-        img: "productions/images/movie 1.jfif",
+        img: "./images/movie 1.jfif",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor error esse sit nemo veniam saepe cumque numquam dolorum eius eos voluptate ipsum aliquid maiores, architecto fugiat placeat alias. Nam, quod."
     },
     {
         id: "prod2",
         createdAt: Date.now(),
         name: "Beyond the wound",
-        img: "productions/images/movie 2.jfif",
+        img: "./images/movie 2.jfif",
         description: "Lorem"
 
     },
@@ -21,21 +21,21 @@ let productions = [
         id: "prod3",
         createdAt: Date.now(),
         name: "Blood Web",
-        img: "productions/images/movie 3.jfif",
+        img: "./images/movie 3.jfif",
         description: "Campus Fyle is a 30-minute entertainment program designed for the youth, especially students in the tertiary schools and students who are aspiring to be in the tertiary schools. It is all about collating entertainment happenings on campus and serving them to students. <br><br>It is a fun-filled youthful entertainment show targeting all youth across the country. Campus Fyle has interesting segments such as campus gist where we give hot fillas happening on campuses. Campus profile also educates viewers on how a specific tertiary institution came into existence. So if you want to know what is happening in your favorite tertiary institution and how they came about then get locked on Campus Fyle. Campus Fyle Live you just got served."
     },
     {
         id: "prod4",
         createdAt: Date.now(),
         name: "Gbelenfo (The cry of the innocent)",
-        img: "productions/images/movie 4.jfif",
+        img: "./images/movie 4.jfif",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor error esse sit nemo veniam saepe cumque numquam dolorum eius eos voluptate ipsum aliquid maiores, architecto fugiat placeat alias. Nam, quod."
     },
     {
         id: "prod5",
         createdAt: Date.now(),
         name: "Ntamkesee (secret unveiled, destiny defined)",
-        img: "productions/images/movie 5.jfif",
+        img: "./images/movie 5.jfif",
         description: "Shishi 17 gets into an accident on her birthday with her father Mr. Brown as the result of her step mother planning of killing both of them fortunately, she was the only one who survives. Her stepmother Miss Miriam 31, claims the properties of her father after succeeded in killing her father Mr. Brown, Shishi runs out of the house as a result of maltreatment from her stepmother. <br><br>She manage to secure a job at a restaurant , and finally enroll into the university with the help of Miss Dufie 41 who adopted her after she was leaving her father’s house. <br><br> Kayson 19 the son of Lawyer Frank proposes to her due to the bet with friends during a tie of her working days at the restaurant. But it was after when Shishi found out that Kayson is related to lawyer Frank (the family’s lawyer) who happens to be the brain behind all her struggling. Kay sacrifices his life and help Shishi to get back her father’s property after recording a secret confession conversation between him and his father reports it to the police. Both Miriam and Lawyer Frank end up in prison and Shishi gain back her father’s properties"
     },
     {
