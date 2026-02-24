@@ -58,7 +58,6 @@ let productions = [
         name: "7th January",
         img: "./images/7thJanuary.jpg",
         description: "Lorem"
-
     },
     {
         id: "prod9",
