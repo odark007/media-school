@@ -66,7 +66,7 @@ let productions = [
         name: "Campuz Fyle on Metro TV",
         img: "./images/Production3.jpg",
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor error esse sit nemo veniam saepe cumque numquam dolorum eius eos voluptate ipsum aliquid maiores, architecto fugiat placeat alias. Nam, quod."
-    }
+    },
     {
         id: "prod10",
         createdAt: Date.now(),
