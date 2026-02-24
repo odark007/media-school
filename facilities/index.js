@@ -59,7 +59,7 @@ function displayProductionInfo(productionUID) {
     });
 
     // If production exists
-    if (productionInfo === undefined && productionElement){
+    if (productionInfo === undefined && productionElement) {
         // productionElement.getAttribute("data-created-at")
         let infoFromElement = {
             id: productionUID,
@@ -83,8 +83,8 @@ function displayProductionInfo(productionUID) {
     infoContainer.style.marginRight = "0";
 }
 
-let getProductionsFromDB = function(HTMLcontainer){
-    let successCallback = function(result){
+let getProductionsFromDB = function (HTMLcontainer) {
+    let successCallback = function (result) {
         HTMLcontainer.innerHTML = "";
         result.forEach(prodItem => {
             createHTMLProduction(prodItem);
@@ -95,17 +95,17 @@ let getProductionsFromDB = function(HTMLcontainer){
     // fetchCrossBrowser("/api/media/productions?pagination=1", { method: "GET"}, successCallback)
 }
 
-let createHTMLProduction = function(data){
+let createHTMLProduction = function (data) {
     let prodWrapper = createComponent("FIGURE", null, ["cols", "prod-wrapper"]);
-        let img = createComponent("IMG", null, ["prod-img"]);
-        let caption = createComponent("FIGCAPTION", `${data.name.toLowerCase()}`);
+    let img = createComponent("IMG", null, ["prod-img"]);
+    let caption = createComponent("FIGCAPTION", `${data.name.toLowerCase()}`);
 
     img.src = `${data.img}`;
     img.alt = `${data.name.toLowerCase()}`;
     prodWrapper.id = `${data.id}`;
     prodWrapper.title = "Click to view details";
     prodWrapper = joinComponent(prodWrapper, img, caption);
-    prodWrapper.addEventListener("click", function(ev){
+    prodWrapper.addEventListener("click", function (ev) {
         let ID = ev.currentTarget.id;
         displayProductionInfo(ID);
     });
